@@ -1,0 +1,30 @@
+# =============================================================================
+# generic-integration-client
+# Cliente HTTP robusto para integrações externas
+# =============================================================================
+
+# ----------------------------
+# Dependências principais (obrigatórias para usar o pacote)
+# ----------------------------
+requests>=2.25.0
+tenacity>=8.0.0
+pybreaker>=0.6.0
+structlog>=22.0.0
+prometheus-client>=0.14.0
+
+# ----------------------------
+# Dependências de desenvolvimento (opcional)
+# ----------------------------
+
+# Testes
+pytest>=7.0.0
+responses>=0.22.0
+
+# Build e publicação
+build>=0.10.0
+twine>=4.0.0
+
+# Ferramentas úteis
+keyring>=23.0.0         
+black>=23.0.0           
+flake8>=6.0.0            
